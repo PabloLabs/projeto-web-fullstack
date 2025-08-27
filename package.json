@@ -1,0 +1,16 @@
+{
+  "name": "projeto-web-fullstack",
+  "version": "1.0.0",
+  "description": "Repositório contendo projetos desenvolvidos durante o estudo progressivo de programação web fullstack, baseado em uma abordagem estruturada de aprendizado.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^15.5.2",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  }
+}
