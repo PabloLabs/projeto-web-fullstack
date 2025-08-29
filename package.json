@@ -4,7 +4,9 @@
   "description": "Repositório contendo projetos desenvolvidos durante o estudo progressivo de programação web fullstack, baseado em uma abordagem estruturada de aprendizado.",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev"
+    "dev": "next dev",
+    "lint:check": "prettier --check .",
+    "lint:fix": "prettier --write ."
   },
   "author": "",
   "license": "MIT",
@@ -12,5 +14,8 @@
     "next": "^15.5.2",
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "prettier": "^3.6.2"
   }
 }
